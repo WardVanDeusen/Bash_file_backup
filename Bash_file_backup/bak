@@ -1,0 +1,13 @@
+#!/bin/bash/env bash
+# Load FunctionLibs
+. "/usr/local/bin/functionLibs/addPath"
+. "/usr/local/bin/functionLibs/callBack"
+. "/usr/local/bin/functionLibs/addFile"
+. "/usr/local/bin/functionLibs/callBack"
+. "/usr/local/bin/functionLibs/areYouSure"
+. "/usr/local/bin/functionLibs/slashKill"
+. "/usr/local/bin/functionLibs/catPath_File"
+. "/usr/local/bin/functionLibs/callBack"
+. "/usr/local/bin/functionLibs/fileCp"
+
+

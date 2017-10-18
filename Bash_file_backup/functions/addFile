@@ -1,0 +1,19 @@
+function addFile()
+{
+
+        echo ""
+        echo ""
+        echo which file would you like to backup?
+                  read -r file
+clear
+NAMEFILE=$file
+
+	echo ""
+        echo ""
+        echo "                       $NAMEFILE"
+
+}
+
+addFile
+
+

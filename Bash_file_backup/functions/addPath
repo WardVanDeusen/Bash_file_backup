@@ -1,0 +1,22 @@
+#addPath
+
+addPath()
+{
+clear&&
+        echo ""
+        echo ""
+        echo "Please type the full path to the directory"
+        echo "that holds your file:"
+
+                read -r  workingDirectory
+clear&&
+
+DIRPATH=$workingDirectory
+        
+	echo ""
+	echo ""
+	echo "                      $DIRPATH"
+
+}
+
+addPath

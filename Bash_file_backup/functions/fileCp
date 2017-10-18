@@ -1,0 +1,22 @@
+fileCp()
+{
+local now=$(date '+%m.%d.%Y~%H:%M')
+local copyDir="${SLASHED}/BAK"
+local execute="${SLASHED}/${NAMEFILE} ${copyDir}/${NAMEFILE}${now}"
+
+CP="${copyDir}"/
+EXECUTE="${execute}"
+
+if [[ -e ${CP} ]]
+then
+	eval sudo cp "${EXECUTE}"
+fi
+	eval sudo install -d "${CP}"&&
+        eval sudo cp "${EXECUTE}"
+     
+}	
+fileCp
+echo "CP = "$CP
+echo "This should be the full cp path:"
+echo "${EXECUTE}" # Test
+

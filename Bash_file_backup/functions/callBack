@@ -1,0 +1,29 @@
+function retVal()
+{
+        
+	echo "                       ^ "
+        echo "                Is this|correct?"
+        echo "          [Y/N][ctrl-c | to quit"
+
+                read -r answer
+local "$answer"="$1"
+
+if [[ "$answer" =~ [Nn] ]]
+then
+	. "/usr/local/bin/bak"
+
+elif [[ "$answer" != [Yy] ]]
+then
+
+clear&&
+        
+	echo "Something is not correct, please recheck your input"
+        return 0
+	exit 1
+fi
+
+clear
+
+}
+
+retVal

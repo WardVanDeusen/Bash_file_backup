@@ -1,0 +1,12 @@
+function catPath_File()
+{
+
+local fullBakPath="${SLASHED}"/"${NAMEFILE}"
+FULLPATH=$fullBakPath
+	
+
+        echo "                        $FULLPATH"
+
+}
+
+catPath_File

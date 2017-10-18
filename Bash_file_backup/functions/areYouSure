@@ -1,0 +1,11 @@
+function ruSure ()
+{
+
+clear&&
+
+        echo ""
+        echo ""
+        echo "		Just double checking."
+
+}
+ruSure
