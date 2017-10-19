@@ -1,13 +1,12 @@
-#!/bin/bash
+#!/bin/bash/env bash
 # Load FunctionLibs
-. "/usr/local/bin/functionLibs/Bash_file_backup/functions/colors"
 . "/usr/local/bin/functionLibs/Bash_file_backup/functions/addPath"
-#. "/usr/local/bin/functionLibs/Bash_file_backup/functions/callBack"
+. "/usr/local/bin/functionLibs/Bash_file_backup/functions/callBack"
 . "/usr/local/bin/functionLibs/Bash_file_backup/functions/addFile"
-#. "/usr/local/bin/functionLibs/Bash_file_backup/functions/callBack"
-#. "/usr/local/bin/functionLibs/Bash_file_backup/functions/areYouSure"
+. "/usr/local/bin/functionLibs/Bash_file_backup/functions/callBack"
+. "/usr/local/bin/functionLibs/Bash_file_backup/functions/areYouSure"
 . "/usr/local/bin/functionLibs/Bash_file_backup/functions/slashKill"
 . "/usr/local/bin/functionLibs/Bash_file_backup/functions/catPath_File"
-#. "/usr/local/bin/functionLibs/Bash_file_backup/functions/callBack"
+. "/usr/local/bin/functionLibs/Bash_file_backup/functions/callBack"
 . "/usr/local/bin/functionLibs/Bash_file_backup/functions/fileCp"
 
