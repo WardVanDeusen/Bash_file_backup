@@ -4,8 +4,8 @@
 . "/usr/local/bin/addPath"
 . "/usr/local/bin/addFile"
 . "/usr/local/bin/slashKill"
-. "/local/bin/catPath"
-. "/local/bin/fileCp"
+. "/usr/local/bin/catPath"
+. "/usr/local/bin/fileCp"
 
 
 
