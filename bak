@@ -1,12 +1,11 @@
 #!/bin/bash
 # Load FunctionLibs
-. "/home/wardvandeusen/buildDebs/bashbak_1.1-0/src/usr/local/bin/functions/colors"
-. "/home/wardvandeusen/buildDebs/bashbak_1.1-0/src/usr/local/bin/functions/addPath"
-. "/home/wardvandeusen/buildDebs/bashbak_1.1-0/src/usr/local/bin/functions/addFile"
-. "/home/wardvandeusen/buildDebs/bashbak_1.1-0/src/usr/local/bin/functions/slashKill"
-. "/home/wardvandeusen/buildDebs/bashbak_1.1-0/src/usr/local/binfunctions/colors/catPath"
-. "/home/wardvandeusen/buildDebs/bashbak_1.1-0/src/usr/local/bin/functions/fileCp"
-
+. "/usr/local/bin/functions/colors"
+. "/usr/local/bin/addPath"
+. "/usr/local/bin/addFile"
+. "/usr/local/bin/slashKill"
+. "/local/bin/catPath"
+. "/local/bin/fileCp"
 
 
 
