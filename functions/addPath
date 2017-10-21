@@ -1,0 +1,26 @@
+function addPath()
+{
+clear
+        echo ""
+        echo "${YELLOW}Please type the full path to the directory"
+        echo "that holds your file:"
+	echo "${RESET}" 
+
+
+	echo "${LIGHT_WHITE}*If current working directory press <a>"
+	echo "${RESET}" 
+                read -r  workingDirectory
+
+clear
+
+if [[ "${workingDirectory}" = "a" ]]
+then    
+	DIRPATH="$(pwd)"
+
+else        
+	
+	DIRPATH="${workingDirectory}"
+
+fi
+}
+addPath

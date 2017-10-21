@@ -1,0 +1,35 @@
+function fileCp()
+{
+local now=$(date '+%m.%d.%Y~%H:%M')
+local copyDir="${SLASHED}/BAK"
+local execute="${SLASHED}/${NAMEFILE} ${copyDir}/${NAMEFILE}${now}"
+
+CP="${copyDir}"/
+EXECUTE="${execute}"
+
+if [[ -e ${CP} ]]
+then
+	eval sudo cp "${EXECUTE}"
+	echo "${LIGHT_BLUE}"
+	echo "Your backup is found at:"
+	echo ""
+	echo "${YELLOW}${copyDir}/${NAMEFILE}${now}"
+	echo ""
+	echo "${LIGHT_WHITE}NOTE* . hidden files are also . hidden as backups"$
+	echo "${RESET}"
+
+else	
+	eval sudo install -d "${CP}"
+        eval sudo cp "${EXECUTE}"
+	echo "${LIGHT_BLUE}"
+	echo "Your backup is found at:"
+	echo ""
+	echo "${YELLOW}${copyDir}/${NAMEFILE}${now}"
+	echo ""
+	echo "${LIGHT_WHITE}NOTE* . hidden files are also . hidden as backups"$
+	echo "${RESET}"
+
+fi
+}	
+fileCp
+

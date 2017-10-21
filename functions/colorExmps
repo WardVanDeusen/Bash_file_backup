@@ -1,0 +1,42 @@
+#!/bash/bin
+function colors()
+
+{
+local blue=`echo -e "\e[34m"`
+BLUE="$blue"
+echo "${BLUE} BLUE"
+local purple=`echo -e "\e[35m"`
+PURPLE="$purple"
+echo "${PURPLE} PURPLE"
+local cyan=`echo -e "\e[36m"`
+CYAN="$cyan"
+echo "${CYAN} CYAN"
+local light_grey=`echo -e "\e[37m"`
+LIGHT_GREY="$light_grey"
+echo "${LIGHT_GREY} LIGHT_GREY"
+local dark_grey=`echo -e "\e[30m"`
+DARK_GREY="$dark_grey"
+echo "${DARK_GREY} DARK_GREY"
+local light_red=`echo -e "\e[31m"`
+LIGHT_RED="$light_red"
+echo "${LIGHT_RED} LIGHT_RED"
+local light_green=`echo -e "\e[32m"`
+LIGHT_GREEN="$light_green"
+echo "${LIGHT_GREEN} LIGHT_GREEN"
+local yellow=`echo -e "\e[33m"`
+YELLOW="$yellow"
+echo "${yellow} YELLOW"
+local light_blue=`echo -e "\e[34m"`
+LIGHT_BLUE="$light_blue"
+echo "${LIGHT_BLUE} LIGHT_BLUE"
+local light_purple=`echo -e "\e[35m"`
+LIGHT_PURPLE="$light_purple"
+echo "${LIGHT_PURPLE} LIGHT_PURPLE"
+local light_cyan=`echo -e "\e[36m"`
+LIGHT_CYAN="$light_cyan"
+echo "${LIGHT_CYAN} LIGHT_CYAN"
+local light_white=`echo -e "\e[37m"`
+LIGHT_WHITE="$light_white"
+echo "${LIGHT_WHITE} LIGHT_WHITE"
+}
+colors
