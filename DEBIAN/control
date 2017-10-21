@@ -1,0 +1,9 @@
+Source: bashbak
+Version: 1.0-1
+Section: base
+architecture: all
+Priority: optional
+Maintainer: "${DEBFULLNAME} ${DEBEMAIL}"
+Package: bashbak
+Depends: bash
+Description: Quickly create backup directory and timestamped backup files, before modifying. 

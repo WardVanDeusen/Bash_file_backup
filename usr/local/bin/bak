@@ -1,0 +1,15 @@
+#!/bin/bash
+# Load FunctionLibs
+. "/usr/local/bin/functions/colors"
+. "/usr/local/bin/functions/addPath"
+. "/usr/local/bin/functions/addFile"
+. "/usr/local/bin/functions/slashKill"
+. "/usr/local/bin/functions/catPath"
+. "/usr/local/bin/functions/fileCp"
+
+
+
+
+
+
+
